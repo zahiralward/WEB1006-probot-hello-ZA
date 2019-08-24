@@ -23,4 +23,4 @@ USER node
 
 WORKDIR /home/node/probot-hello
 RUN npm install
-RUN npm update
+RUN npm audit fix
